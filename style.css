@@ -1,0 +1,96 @@
+/*Colors and fonts*/
+body {
+  background-color: rgb(255, 255, 255);  
+  color: rgb(22, 255, 0);
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  line-height: normal;
+}
+
+h1,h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: rgb(22, 255, 0);	
+  font-weight: 700;
+  letter-spacing: 8px;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: rgb(15, 98, 146);	
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+  letter letter-spacing: 5px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;	
+  color: rgb(255, 237, 0);
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: lightyellow;	
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+
+#introduction {
+  padding: 60px;
+  margin: 50px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 8px
+}  
+
+.card-grey {
+  background color: darkslategray;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  border-radius: 50px;
+  background-color: blue;
+  border: 1px #2B2D2F;
+  padding: 10px;
+  text-decoration: none;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+ 
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+ 
+  .container {
+    width: 300px;
+  }
+}
